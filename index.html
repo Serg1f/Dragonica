@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Dragonica - Оружейная</title>
+  </head>
+  <body>
+    <div class="top-overlay">
+      <div class="text overlay-text rus-text">
+        Здравствуйте, Гость. Пожалуйста
+        <a class="overlay-links" href="https://ru.volia.biz/?action=login"
+          >войдите</a
+        >
+        или
+        <a class="overlay-links" href="https://ru.volia.biz/?action=register"
+          >зарегистрируйтесь</a
+        >.
+      </div>
+      <div class="text overlay-text eng-text hidden">
+        Hello Guest. Please
+        <a class="overlay-links" href="https://ru.volia.biz/?action=login"
+          >log in
+        </a>
+        or
+        <a class="overlay-links" href="https://ru.volia.biz/?action=register"
+          >sign up</a
+        >.
+      </div>
+      <div class="overlay-language">
+        <img src="img/ru.svg" alt="флаг России" class="language-btn rus-btn" />
+        <img
+          src="img/gb.svg"
+          alt="флаг Великобритании"
+          class="language-btn eng-btn hidden"
+        />
+      </div>
+    </div>
+    <section class="roller-bg">
+      <header class="header">
+        <div class="header-wrapper">
+          <div class="side-btn">
+            <a
+              class="hidden-text rus-img"
+              href="https://ru.volia.biz/?action=download"
+              >Скачать игру</a
+            >
+          </div>
+          <div class="inner-btn">
+            <h2 class="header-about header-nav-item">
+              <a
+                class="hidden-text rus-img"
+                href="https://en.volia.biz/?action=about"
+                >статьи</a
+              >
+            </h2>
+            <span class="inner-description rus-text"
+              >Основы игры, история мира, библиотека</span
+            >
+            <span class="inner-description eng-text hidden"
+              >Game basics, world history, library</span
+            >
+          </div>
+          <div class="inner-btn">
+            <h2 class="header-download header-nav-item">
+              <a
+                class="hidden-text rus-img"
+                href="https://en.volia.biz/?action=about"
+                >загрузить</a
+              >
+            </h2>
+            <span class="inner-description rus-text"
+              >Скачайте игру, любым из доступных способов</span
+            >
+            <span class="inner-description eng-text hidden"
+              >Download game with most preferable method</span
+            >
+          </div>
+          <div class="inner-btn">
+            <h2 class="header-forum header-nav-item">
+              <a
+                class="hidden-text rus-img"
+                href="https://en.volia.biz/?action=about"
+                >форум</a
+              >
+            </h2>
+            <span class="inner-description rus-text"
+              >Основное место общения</span
+            >
+            <span class="inner-description eng-text hidden"
+              >The main place of communication</span
+            >
+          </div>
+          <div class="side-btn">
+            <a class="hidden-text rus-img" href="/?action=register"
+              >Регистрация</a
+            >
+          </div>
+        </div>
+      </header>
+      <nav class="nav">
+        <div class="nav-wrapper">
+          <div class="nav-home nav-item">
+            <a
+              class="hidden-text home-link nav-links rus-img"
+              href="https://ru.volia.biz/"
+              >главная</a
+            >
+          </div>
+          <div class="nav-about nav-item">
+            <a
+              class="hidden-text about-link nav-links rus-img select"
+              href="https://ru.volia.biz/?action=about"
+              >об игре</a
+            >
+          </div>
+          <div class="nav-shop nav-item">
+            <a
+              class="hidden-text shop-link nav-links rus-img"
+              href="https://ru.volia.biz/?action=shop"
+              >магазин</a
+            >
+          </div>
+          <div class="nav-download nav-item">
+            <a
+              class="hidden-text download-link nav-links rus-img"
+              href="https://ru.volia.biz/?action=download"
+              >скачать</a
+            >
+          </div>
+          <div class="nav-community nav-item">
+            <a
+              class="hidden-text community-link nav-links rus-img"
+              href="https://ru.volia.biz/?action=forum"
+              >сообщество</a
+            >
+          </div>
+          <div class="nav-support nav-item">
+            <a
+              class="hidden-text support-link nav-links rus-img"
+              href="https://ru.volia.biz/?action=helpdesk"
+              >поддержка</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="sub-nav">
+        <div class="sub-nav-rus rus-text">
+          <div class="edges"></div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?page=history" class="sub-nav-text"
+              >История</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?page=classes" class="sub-nav-text"
+              >Классы</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?page=novice" class="sub-nav-text"
+              >Новичку</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?page=monsters" class="sub-nav-text"
+              >Монстры</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?topic=80.0" class="sub-nav-text"
+              >Задания Эвана</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?action=media" class="sub-nav-text"
+              >Скриншоты</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?action=armory" class="sub-nav-text"
+              >Оружейная</a
+            >
+          </div>
+          <div class="sub-nav-item">
+            <a href="https://ru.volia.biz/?action=wheel" class="sub-nav-text"
+              >Рулетка</a
+            >
+          </div>
+          <div class="edges"></div>
+        </div>
+        <div class="sub-nav-eng eng-text hidden">
+          <div class="edges"></div>
+          <div class="sub-nav-item"><a class="sub-nav-text">Classes</a></div>
+          <div class="sub-nav-item">
+            <a class="sub-nav-text">Evan's Quests</a>
+          </div>
+          <div class="sub-nav-item">
+            <a class="sub-nav-text">Screenshots</a>
+          </div>
+          <div class="sub-nav-item"><a class="sub-nav-text">Armory</a></div>
+          <div class="sub-nav-item">
+            <a class="sub-nav-text">Wheel of Luck</a>
+          </div>
+          <div class="edges"></div>
+        </div>
+      </div>
+      <section class="paper-bg">
+        <div class="armory">
+          <div class="armory-wrapper">
+            <div class="armory-title">
+              <a href="https://ru.volia.biz/?action=armory">
+                <img
+                  src="img/armory-title.png"
+                  alt="Оружейная-узнай свою игру!"
+                />
+              </a>
+            </div>
+            <div class="armory-search">
+              <form action="/" method="get">
+                <div class="armory-search-item">
+                  <input
+                    class="armory-input"
+                    type="text"
+                    name="search"
+                    id="search"
+                    placeholder="Поиск предмета"
+                  />
+                </div>
+                <div class="armory-search-item select-lvl">
+                  <select name="choose-lvl" class="armory-input">
+                    <option value="1">Мин. ур.</option>
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                    <option value="49">49</option>
+                    <option value="50">50</option>
+                    <option value="51">51</option>
+                    <option value="52">52</option>
+                    <option value="53">53</option>
+                    <option value="54">54</option>
+                    <option value="55">55</option>
+                    <option value="56">56</option>
+                    <option value="57">57</option>
+                    <option value="58">58</option>
+                    <option value="59">59</option>
+                    <option value="60">60</option>
+                    <option value="61">61</option>
+                    <option value="62">62</option>
+                    <option value="63">63</option>
+                    <option value="64">64</option>
+                    <option value="65">65</option>
+                    <option value="66">66</option>
+                    <option value="67">67</option>
+                    <option value="68">68</option>
+                    <option value="69">69</option>
+                    <option value="70">70</option>
+                    <option value="71">71</option>
+                    <option value="72">72</option>
+                    <option value="73">73</option>
+                    <option value="74">74</option>
+                    <option value="75">75</option>
+                    <option value="76">76</option>
+                    <option value="77">77</option>
+                    <option value="78">78</option>
+                    <option value="79">79</option>
+                    <option value="80">80</option>
+                    <option value="81">81</option>
+                    <option value="82">82</option>
+                    <option value="83">83</option>
+                    <option value="84">84</option>
+                    <option value="85">85</option>
+                  </select>
+                </div>
+                <div class="armory-search-item select-max-lvl">
+                  <select name="choose-max-lvl" class="armory-input">
+                    <option value="85">Макс. ур.</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                    <option value="49">49</option>
+                    <option value="50">50</option>
+                    <option value="51">51</option>
+                    <option value="52">52</option>
+                    <option value="53">53</option>
+                    <option value="54">54</option>
+                    <option value="55">55</option>
+                    <option value="56">56</option>
+                    <option value="57">57</option>
+                    <option value="58">58</option>
+                    <option value="59">59</option>
+                    <option value="60">60</option>
+                    <option value="61">61</option>
+                    <option value="62">62</option>
+                    <option value="63">63</option>
+                    <option value="64">64</option>
+                    <option value="65">65</option>
+                    <option value="66">66</option>
+                    <option value="67">67</option>
+                    <option value="68">68</option>
+                    <option value="69">69</option>
+                    <option value="70">70</option>
+                    <option value="71">71</option>
+                    <option value="72">72</option>
+                    <option value="73">73</option>
+                    <option value="74">74</option>
+                    <option value="75">75</option>
+                    <option value="76">76</option>
+                    <option value="77">77</option>
+                    <option value="78">78</option>
+                    <option value="79">79</option>
+                    <option value="80">80</option>
+                    <option value="81">81</option>
+                    <option value="82">82</option>
+                    <option value="83">83</option>
+                    <option value="84">84</option>
+                    <option value="85" selected="">85</option>
+                  </select>
+                </div>
+                <div class="armory-search-item choose-slot">
+                  <select name="slot" class="armory-input">
+                    <option value="0" selected="">Все слоты</option>
+                    <option value="1">Краска для волос</option>
+                    <option value="2">Прическа</option>
+                    <option value="4">Лицо</option>
+                    <option value="8">Плечи</option>
+                    <option value="16">Спина</option>
+                    <option value="32">Очки</option>
+                    <option value="64">Оружие</option>
+                    <option value="128">Щит</option>
+                    <option value="256">Шея</option>
+                    <option value="512">Уши</option>
+                    <option value="1024">Палец</option>
+                    <option value="2048">Пояс</option>
+                    <option value="8192">Прочее</option>
+                    <option value="1048576">Шлем</option>
+                    <option value="2097152">Грудь</option>
+                    <option value="4194304">Штаны</option>
+                    <option value="8388608">Обувь</option>
+                    <option value="16777216">Перчатки</option>
+                    <option value="32506056">Карта</option>
+                    <option value="67108864">Зверь</option>
+                    <option value="268435456">Мебель</option>
+                  </select>
+                </div>
+                <div class="armory-search-item select-class">
+                  <select name="class" class="armory-input">
+                    <option value="0" selected="">Все классы</option>
+                    <option value="1">Воин</option>
+                    <option value="2">Маг</option>
+                    <option value="3">Лучник</option>
+                    <option value="4">Вор</option>
+                    <option value="5">Рыцарь</option>
+                    <option value="6">Гладиатор</option>
+                    <option value="7">Служитель</option>
+                    <option value="8">Чародей</option>
+                    <option value="9">Охотник</option>
+                    <option value="10">Стрелок</option>
+                    <option value="11">Шут</option>
+                    <option value="12">Ассасин</option>
+                    <option value="13">Паладин</option>
+                    <option value="14">Спартанец</option>
+                    <option value="15">Жрец</option>
+                    <option value="16">Архимаг</option>
+                    <option value="17">Следопыт</option>
+                    <option value="18">Снайпер</option>
+                    <option value="19">Арлекин</option>
+                    <option value="20">Ниндзя</option>
+                    <option value="21">Страж</option>
+                    <option value="22">Чемпион</option>
+                    <option value="23">Епископ</option>
+                    <option value="24">Еретик</option>
+                    <option value="25">Разведчик</option>
+                    <option value="26">Штурмовик</option>
+                    <option value="27">Джокер</option>
+                    <option value="28">Фантом</option>
+                  </select>
+                </div>
+                <div class="armory-search-item">
+                  <input
+                    type="submit"
+                    value="Поиск"
+                    name="submit"
+                    title="Поиск"
+                    class="submit-btn armory-input"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="armory-results">
+              Результаты поиска (<span class="armory-result-number"></span>):
+            </div>
+            <div class="armory-items">
+              <div class="armory-items-title">
+                <div class="armory-items-title-headlines">
+                  Название предмета
+                </div>
+                <div class="armory-items-title-headlines">Уровень</div>
+                <div class="armory-items-title-headlines">Классы</div>
+                <div class="armory-items-title-headlines">Слот</div>
+                <div class="armory-items-title-headlines">Надето</div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <div class="class-icon-1 class-icon"></div>
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <div class="class-icon-2 class-icon"></div>
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+              <div class="armory-items-row">
+                <div class="armory-item armory-item-name">
+                  <div class="name-img"></div>
+                  <div class="name"></div>
+                </div>
+                <div class="armory-item armory-item-lvl"></div>
+                <div class="armory-item armory-item-class">
+                  <img class="first-class" src="" alt="класс" />
+                  <img class="second-class hidden" src="" alt="класс" />
+                </div>
+                <div class="armory-item armory-item-slot"></div>
+                <div class="armory-item armory-item-set"></div>
+              </div>
+            </div>
+            <div class="footer-nav-btns">
+              <a href="#" class="previous"><</a>
+              <span class="current">1</span>
+              <a href="#" class="next">></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="end-paper"></div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
