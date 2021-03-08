@@ -563,6 +563,7 @@ form {
   -ms-flex-align: center;
   align-items: center;
   max-width: 350px;
+  cursor: pointer;
 }
 
 .armory-item-lvl {
@@ -768,6 +769,104 @@ form {
   margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.item-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  left: 250px;
+  width: 400px;
+  height: auto;
+  background-color: rgba(25, 21, 25, 0.83);
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+  padding: 10px;
+  z-index: 100;
+}
+
+.hover-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.hover-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hover-title-img {
+  width: 40px;
+  height: 40px;
+  background: no-repeat;
+  background-color: #ffdcb1;
+  -webkit-box-shadow: 2px 2px 3px rgb(67 57 57 / 50%);
+  box-shadow: 2px 2px 3px rgb(67 57 57 / 50%);
+  border-radius: 11px;
+  margin-right: 10px;
+}
+
+.hover-title-name {
+  color: rgb(253, 253, 0);
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia,
+    Times New Roman;
+  font-size: 16px;
+}
+
+.hover-class {
+  color: rgb(253, 253, 0);
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia,
+    Times New Roman;
+  font-size: 16px;
+}
+
+.hover-main {
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
+
+.simple-hover-text {
+  color: rgb(248, 233, 219);
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia,
+    Times New Roman;
+  font-size: 16px;
+}
+
+.hover-not {
+  margin: 20px 0;
+}
+
+.not-title {
+  color: rgb(253, 253, 0);
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia,
+    Times New Roman;
+  font-size: 16px;
+}
+
+.spell {
+  margin-bottom: 15px;
+}
+
+.red-text {
+  color: rgb(252, 88, 22);
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif, Georgia,
+    Times New Roman;
+  font-size: 16px;
 }
 
 /* global styles */
